@@ -1,6 +1,6 @@
 <template>
   <component :is="as">
-    <ContentSlot :use="$slots.default" unwrap="*" />
+    <ContentSlot :use="$slots.default" unwrap="p" />
   </component>
 </template>
 
